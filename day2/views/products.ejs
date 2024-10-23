@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <%- include('partials/header') %>
+
+  <main>
+    <h2>Our Products</h2>
+    <ul>
+      <% products.forEach(product => { %>
+        <li><strong><%= product.name %></strong> - $<%= product.price %></li>
+      <% }) %>
+    </ul>
+  </main>
+
+  <%- include('partials/footer') %>
+</body>
+</html>
