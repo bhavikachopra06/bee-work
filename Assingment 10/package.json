@@ -1,0 +1,20 @@
+{
+  "name": "backend_prep",
+  "version": "1.0.0",
+  "description": "learning backend ",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon script.js"
+  },
+  "author": "Bhavika Chopra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
+  }
+}
